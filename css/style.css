@@ -1,3 +1,11 @@
 body {
     background-color: aquamarine;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/tahomabd.ttf);
+}
+  
+h1 {
+    font-family: myFirstFont;
+}

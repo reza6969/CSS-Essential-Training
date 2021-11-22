@@ -29,8 +29,17 @@ h2 {
 /* Media Features are used to test a specific feature of the device */
 /* @media (width: 480px) {...} */
 /* @media (orientation: landscape) {...} */
+/* 1000px and smaller*/
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 12px;
     }
 }
+/* Media Queries, widths, and breackpoints */
+/* Breackpoints */
+/* 320px: Mobile portrait */
+/* 480px: Mobile landscape */
+/* 600px: Small tablet */
+/* 768px: Tablet portrait */
+/* 940-1024px: Tablet landscape */
+/* 1280px and greater: Desktop, laptop  */

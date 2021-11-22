@@ -15,4 +15,22 @@ body {
 }
 h1 {
     font-family: myFirstFont;
+    font-size: 16px;
+}
+h2 {
+    font-size: 14px;
+}
+/* Media Queries */
+/* Media type is the broad category of devices that display web documents */
+/* all: matches to all devices  */
+/* print: matches to printers and print-related displays */
+/* speech: matches to screen reading devices that "read out" a page  */
+/* screen: matches all devices that aren't categorized as print or speech  */
+/* Media Features are used to test a specific feature of the device */
+/* @media (width: 480px) {...} */
+/* @media (orientation: landscape) {...} */
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 12px;
+    }
 }

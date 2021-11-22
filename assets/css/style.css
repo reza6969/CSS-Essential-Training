@@ -1,9 +1,13 @@
-/* background Shorthand */
-/* background-size may only be included after position, separated with the '/' character */
 body {
     background-color: aquamarine;
+    /* background Shorthand */
+    /* background-size may only be included after position, separated with the '/' character */
     /* image, repeat style, postion, background size */
-    background: url(../img/69K0zN.jpg) no-repeat center/cover;
+    /* background: url(../img/69K0zN.jpg) no-repeat center/cover; */
+    
+    /* background-size may be declared independently */
+    background: blue url(../img/69K0zN.jpg) no-repeat;
+    background-size: cover;
 }
 @font-face {
     font-family: myFirstFont;
